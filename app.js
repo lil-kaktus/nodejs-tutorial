@@ -72,12 +72,8 @@ writeFileSync('./others/function-result.txt', `Here are the results :
 //     })
 // })
 
-//LODASH MODULE
+const map1 = new Map()
+map1.set("hello", 1)
+map1.set("goodbye", 2)
 
-const _ = require('lodash')
-
-const items = [1,[2,[3,[4]]]]
-const newItems = _.flattenDeep(items)
-
-console.log(items)
-console.log(newItems)
+console.log(map1.set("wassup", 3))
